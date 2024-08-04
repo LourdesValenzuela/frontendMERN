@@ -1,0 +1,85 @@
+.pet-list-container {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list-header h2 {
+    margin: 0;
+    color: black;
+    font-size: 30px;
+}
+
+
+.pet-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pet-list-table th,
+.pet-list-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: start;
+    
+}
+
+.pet-list-table th {
+    background-color: #827c7b;
+}
+
+.pet-list-table tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Blanco para filas pares */
+}
+
+.pet-list-table tr:nth-child(odd) td {
+    background-color: #e0e0e0; /* Gris claro para filas impares */
+}
+
+
+select {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ddd;
+}
+
+p {
+    text-align: start;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.links {
+    text-decoration: underline !important;
+    color: blue; 
+}
+.section {
+    display:flex;
+    direction-flex: column;
+}
+
+
+
